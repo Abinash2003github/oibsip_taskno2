@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #d8ff9e;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px -5px #65962a;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav bar */
+.nav {
+    width: 45%;
+    height: 56px;
+}
+
+.nav ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav ul li {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.nav ul li:hover {
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    background-color: #65962a;
+
+}
+
+.contact {
+    background-color: #65962a;
+    color: #ffffff;
+    text-align: center;
+    width: 20%;
+
+}
+
+/* aboutme */
+main {
+    height: 100%;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    width: 77%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.intro {
+    font-size: 50px;
+}
+
+.link {
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: #65962a;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+.avater {
+    width: fit-content;
+    height: auto;
+    margin-right: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 38px -2px #c2cbb8;
+    background: #65962a;
+}
+
+.avater img {
+    height: auto;
+    width: 200px;
+
+}
+
+/* footer */
+
+footer {
+    /* background-color: #111; */
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #65962a;
+    color: #fff;
+}
+
+.footer{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 20px;
+
+}
+.row2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row2 ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+.row2 ul li {
+    padding: 5px 5px;
+}
+.row2 ul li a{
+    color: white;
+}
+.fa-brands {
+    margin-right: 5px;
+    color: #ffffff;
+}
+
+.row3{
+    text-align: center;
+    margin: 3px 0px;
+}
